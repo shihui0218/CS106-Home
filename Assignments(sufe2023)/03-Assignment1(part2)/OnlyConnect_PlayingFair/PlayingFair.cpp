@@ -11,7 +11,14 @@ string aSequenceOfOrder(int n) {
      * comment and the next few lines, then implement this function.
      */
     (void) n;
-    return "";
+
+    if (n < 0) {
+        error("a string containing your error message");
+    }
+    if (n == 0)
+        return "A";
+    else
+        return aSequenceOfOrder(n-1)+bSequenceOfOrder(n-1);
 }
 
 string bSequenceOfOrder(int n) {
@@ -20,7 +27,14 @@ string bSequenceOfOrder(int n) {
      * comment and the next few lines, then implement this function.
      */
     (void) n;
-    return "";
+
+    if (n < 0) {
+        error("a string containing your error message");
+    }
+    if (n == 0)
+        return "B";
+    else
+        return bSequenceOfOrder(n-1)+aSequenceOfOrder(n-1);
 }
 
 /* * * * * * Tests Below This Point * * * * * */
