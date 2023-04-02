@@ -5,4 +5,6 @@ build-OnlyConnect_PlayingFair-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/
 *.bin
 *.pro
 *.exe
-*.pro.user
+*.user
+*.gitignore
+*.7d33af6
