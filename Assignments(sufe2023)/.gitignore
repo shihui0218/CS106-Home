@@ -1,4 +1,8 @@
 GUI/
 Demos/
 build-OnlyConnect_PlayingFair-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/
-!*.cpp
+*.txt
+*.bin
+*.pro
+*.exe
+*.pro.user
