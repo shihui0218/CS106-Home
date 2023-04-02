@@ -23,9 +23,14 @@
 
 ---
 
-- `**#include <vector>**`
+- **`#include "vector.h"`**
+  - `Vector<type>(n, value)` Creates a vector with n elements, each of which has the specified value. If value is missing, each element is initialized to its default value.
+  - `set(index, value)` Sets the element at the specified index to the new value. Attempting toset the value of an element outside the vector bounds generates an error.
+  - `insertAt(index, value)` Inserts the new value before the specified index position.
+  - `removeAt(index)` Deletes the element at the specified index position.
   - `vector<int> v = {1,2,3}`or `vector<vector<int>> vec ={{1,2},{1}}`
      > 更多用法在书上,`vector<int> v(10,2)`
+  ![vector.h](codeLibrary.assets/vector.h.png)
 
 ---
 
