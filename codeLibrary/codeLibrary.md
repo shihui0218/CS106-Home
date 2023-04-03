@@ -49,7 +49,7 @@
   
     <img src="codeLibrary.assets/subList_ofMaxTournament.png" alt="`.subList(1,4)` 与`.sunstr(1,4)` 有不同，前者“4”为[4](但不包括）,共有3个元素；后者“4”为长度，共有4个元素。" style="zoom:50%;" />
 
-    `.subList(1,4)` 与`.sunstr(1,4)` 有不同，前者“4”为[4](但不包括）,共有3个元素；后者“4”为长度，共有4个元素。
+    `.subList(1,4)` 与`.sunstr(1,4)` ~~有不同，前者“4”为[4](但不包括）,共有3个元素；后者“4”为长度，共有4个元素。~~ ==两者相同，均为**substr(start,length),subList(start,length)**.==
 
 ---
 
